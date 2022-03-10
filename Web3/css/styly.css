@@ -1,0 +1,108 @@
+/* CSS Document */
+body {
+  font-family: 'Courier New', Courier, monospace;
+  background-color: rgb(221, 221, 221);
+  margin: auto;
+}
+
+#obal {
+  max-width: 960px;
+  text-align: center;
+  border: 1px solid gray;
+  margin: 0 auto;
+  background-color: white;
+  color: #222;
+}
+
+nav {
+  text-align: left;
+  background-color: #222;
+  margin: -20px;
+  margin-bottom: 20px;
+  padding: 20px;
+  font-size: 1.1em;
+  color: lightgray;
+}
+
+nav a {
+  padding: 19px;
+  text-decoration: none;
+  color: lightgray;
+}
+
+nav:hover {
+  color: white;
+  background-color: rgb(0,153,204);
+}
+
+h1 {
+  text-align: center;
+  font-size: large;
+  font-weight: bold;
+  color: rgb(0,153,204);
+  text-transform: uppercase;
+  line-height: 2em;
+}
+
+h2, h3 {
+  font-weight: 200; 
+  line-height: 2em;
+}
+
+h2 {
+  font-size: 1.6em;
+  color: rgb(102,153,0);
+}
+
+mark {
+  background-color: rgb(102,153,0);
+  color: white;
+}
+
+h3 { 
+  font-size: 1.2em;
+  text-decoration: underline, dotted, rgb(0,153,204); 
+}
+
+p, li {
+  line-height: 1.5em;
+  margin: 1em;
+}
+
+p {
+  /* blok */
+}
+
+li {
+  list-style-type: square;
+  list-style-position: outside;
+  margin-left: 20px;
+}
+
+/* Nastavte pravidlo pro v�echny tu�n� a mod�e zv�razn�n� texty v odr�k�ch. */
+
+.poznamky {
+  border-left-color: #222;
+  border-left: #222 solid 5px;
+}
+    * na lev�m okraji bude �ed� ohrani�en� 10px siln�
+    * text bude zleva odsazen o 50 pixel�
+    * pou�it� font bude o 10% men�� ne� z�kladn� p�smo
+    * p�smo bude naklon�n� (kurz�va)
+*/
+
+footer {
+  color: gray;
+  margin: 10px auto;
+  text-align: center;
+  font-size: 80%;
+}
+
+strong {
+  font-weight: bold;
+}
+
+
+/* Nastavte pravidla pro zna�ky vlo�en� do textu �vodn�ho odstavce,
+   aby kone�n� vzheld textu odpov�dal p�edloze. */
+
