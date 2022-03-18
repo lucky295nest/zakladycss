@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="cs">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="generator" content="PSPad editor, www.pspad.com">
+        <title>Úvod do CSS</title>
+        <link rel="stylesheet" href="./css/reset.css">
+        <link rel="stylesheet" href="./css/styly.css">
+    </head>
+    <body>
+        <div id="obal">
+            <nav>
+                <a href="https://validator.w3.org/">Validátor</a>
+                <a href="https://www.w3schools.com/">W3Schools</a>
+                <a href="./index.html">Jak psát web</a>
+            </nav>
+            <h1>Úvod do CSS</h1>
+            <h2>Co jsou kaskádové styly</h2>
+            <p><abbr title="Cascade Styles">CSS</abbr> is a <mark>W3C</mark> 
+                standard for describing the appearance of <abbr title="HyperText Markup Language">HTML</abbr> elements.
+                Another common way to describe CSS’s function is to say that CSS is used to define
+                the presentation of HTML documents. With CSS, we can assign font properties,
+                colors, sizes, borders, background images, and even position <mark>elements</mark> on the page.
+                CSS can be added directly to any HTML element (via the <code>style</code> attribute), within
+                the <code>&lt;head&gt;</code> element, or, most commonly, in a separate text file that contains only CSS.</p>
+            <h3>Výhody kaskádových stylů</h3>
+            <ul>
+                <li><b>Improved control over formatting.</b> The degree of formatting control in CSS is
+                    significantly better than that provided in HTML. CSS gives web authors
+                    fine-grained control over the appearance of their web content.</li>
+                <li><b>Improved site maintainability.</b> Websites become significantly more maintainable
+                    because all formatting can be centralized into one CSS file, or a small handful of
+                    them. This allows you to make site-wide visual modifications by changing a
+                    single file.</li>
+                <li><b>Improved accessibility.</b> CSS-driven sites are more accessible. By keeping
+                    presentation out of the HTML, <strong>screen readers</strong> and other accessibility tools
+                    work better, thereby providing a significantly enriched experience for those
+                    reliant on accessibility tools.</li>
+                <li><b>Improved page download speed.</b> A site built using a centralized set of CSS files
+                    for all presentation will also be quicker to download because each individual
+                    HTML file will contain less style information and markup, and thus be smaller.</li>
+                <li><b>Improved output flexibility.</b> CSS can be used to adopt a page for different
+                    output media. This approach to CSS page design is often referred to as
+                    <strong>responsive design</strong>.</li>
+            </ul>
+            <h3>Verze CSS</h3>
+            <p>Style sheets as a way to visually format markup predate the web. 
+                In the early 1990s, a variety of different style sheet standards were proposed, including
+                JavaScript style sheets, which was proposed by Netscape in 1996. Netscape’s proposal
+                was one that required the use of JavaScript programming to perform style
+                changes. Thankfully for nonprogrammers everywhere, the W3C decided to adopt
+                CSS, and by the end of 1996 the CSS Level 1 Recommendation was published. A
+                year later, the CSS Level 2 Recommendation (also more succinctly labeled simply as
+                CSS2) was published.</p>
+                <div class="poznamka">
+            <p>Even though work began over a decade ago, an updated version of the Level 2
+                Recommendation, CSS2.1, did not become an official W3C Recommendation until
+                June 2011. And to complicate matters even more, all through the last decade (and
+                to the present day as well), during the same time the CSS2.1 standard was being
+                worked on, a different group at the W3C was working on a CSS3 draft. To make
+                CSS3 more manageable for both browser manufacturers and web designers, the
+                W3C has subdivided it into a variety of different CSS3 modules. So far the following
+                CSS3 modules have made it to official W3C Recommendations: CSS Selectors, CSS
+                Namespaces, CSS Media Queries, and CSS Color.</p>
+            </div>
+            <h3>Prohlížeče a CSS</h3>
+            <p>Perhaps the most important thing to keep in mind with CSS is that the different
+                browsers have not always kept up to the W3C. While Microsoft’s Internet Explorer
+                was an early champion of CSS (its IE3, released in 1996, was the first major browser
+                to support CSS, and its IE5 for the Macintosh was the first browser to reach almost
+                100% CSS1 support in 2000), its later versions (especially IE5, IE6, and IE7) for
+                Windows had uneven support for certain parts of CSS2. However, all browsers have
+                not implemented parts of the CSS2 Recommendation.</p>
+                <div class="poznamka">
+            <p>For this reason, CSS has a reputation for being a somewhat frustrating language.
+                Based on over a decade of experience teaching university students CSS, this reputation is well deserved. Since CSS was designed to be a styling language, text
+                styling is quite easy. However, CSS was not really designed to be a layout language,
+                so authors often find it tricky dealing with floating elements, relative positions,
+                inconsistent height handling, overlapping margins, and nonintuitive naming
+                (we’re looking at you, relative and !important). When one adds in the uneven
+                CSS 2.1 support (prior to IE8 and Firefox 2) in browsers for CSS2.1, it becomes
+                quite clear why many software developers developed a certain fear and loathing
+                of CSS.</p>
+            </div>
+            <h2>CSS syntax</h2>
+        <img src="./img/selector.gif" alt="selector">
+            <p></p>
+        <!-- Do zápatí zapiš text podle předlohy -->
+        </div>
+        <footer>
+            Copyright &copy; IT1, Opava 2022
+        </footer>
+    </body>
+</html>
